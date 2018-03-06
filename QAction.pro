@@ -17,5 +17,4 @@ SOURCES += main.cpp\
 
 HEADERS  += mainwindow.h
 
-RESOURCES += \
-    res.qrc
+RESOURCES +=

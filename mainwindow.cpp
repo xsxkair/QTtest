@@ -10,7 +10,7 @@ MainWindow::MainWindow(QWidget *parent)
 {
     setWindowTitle("xsx");
 
-    openAction = new QAction(QIcon(":/images/testImage"), tr("&Open..."), this);
+    openAction = new QAction(tr("&Open..."), this);
     openAction->setShortcut(QKeySequence::Open);
     openAction->setStatusTip(tr("open an existing file"));
     connect(openAction, &QAction::triggered, this, &MainWindow::open);
